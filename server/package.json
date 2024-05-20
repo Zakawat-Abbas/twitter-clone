@@ -1,12 +1,12 @@
 {
-	"name": "twitter-clone",
+	"name": "server",
 	"version": "1.0.0",
 	"description": "",
-	"main": "server/app.js",
+	"main": "app.js",
 	"scripts": {
-		"dev": "NODE_ENV=development nodemon server/app.js",
-		"start": "NODE_ENV=production node server/app.js",
-		"build": "npm install && npm install --prefix client && npm run build --prefix client"
+		"dev": "NODE_ENV=development nodemon app.js",
+		"start": "NODE_ENV=production node app.js",
+		"build": "npm install"
 	},
 	"keywords": [],
 	"author": "",
